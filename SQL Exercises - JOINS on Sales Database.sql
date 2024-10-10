@@ -104,6 +104,9 @@ EMP_IDNO EMP_FNAME       EMP_LNAME         EMP_DEPT
 
 
 /* 1. Explain in plain English in one sentence what is the output of the folloiwng block of SQL commands:  */
+-- The SQL command retrieves a list of salesmen's names along with the names and cities of customers who are located in the same city as the salesmen.
+
+
 
 SELECT s.name,
        c.cust_name,
